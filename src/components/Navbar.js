@@ -11,16 +11,19 @@ class Navbar extends Component {
         <div>
     <img src={logo} alt='logo'/>
         </div>
-        <div>
-            <ul>
+        <div className='wrapper'>
+            <ul className='nav-items'>
                 {
                     navLink.map(link=>(
-                        <li key={navLink.id}>{navLink.title}</li>
+                        <li className='nav-item' key={link.id}>{navLink.title}</li>
                     ))
                 }
-            </ul>
+            </ul  > // .nav-items
+
+            <button>Login</button>
+            <button>Sign up</button>
         </div>
-       </div> 
+       </div> //.container
       
     }
 }
