@@ -18,10 +18,8 @@ class Navbar extends Component {
                         <li className='nav-item' key={link.id}>{navLink.title}</li>
                     ))
                 }
-            </ul  > // .nav-items
-
-            <button>Login</button>
-            <button>Sign up</button>
+            </ul  > 
+ <button className='login_btn'>Sign up</button>
         </div>
        </div> //.container
       

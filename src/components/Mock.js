@@ -6,5 +6,5 @@ export const navLink= [
     {id:5, title:"Pages"},
     {id:6, title:"Blog"},
     {id:7, title:"Contact"}
-    
+    {id:8, title:"login"}
 ]
