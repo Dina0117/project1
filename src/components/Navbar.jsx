@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
-import './Navbar.css' 
 import logo from '../assets/images/logo.png'
-import {navLink} from './Mock.js'
+import './Navbar.css' 
+import {navLink} from '../Mock.js'
 
 
 class Navbar extends Component {
    
     render(){
-     return<div className='container'>
+     return (<div className='container'>
         <div>
     <img src={logo} alt='logo'/>
         </div>
@@ -15,14 +15,14 @@ class Navbar extends Component {
             <ul className='nav-items'>
                 {
                     navLink.map(link=>(
-                        <li className='nav-item' key={link.id}>{navLink.title}</li>
+                        <li className='nav-item' key={link.id}>{link.title}</li>
                     ))
                 }
             </ul  > 
  <button className='login_btn'>Sign up</button>
         </div>
        </div> //.container
-      
+     )
     }
 }
 
