@@ -11,13 +11,14 @@
 .card_container{
     width: 424px;
     height: 515px;
-    /* border:1px solid black; */
+
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0px 6px 24px #E4E2EE;
-    position:relative;
-    top:420px;
-    z-index: 4;
+  
+    /* position:relative;
+    top:420px; */
+    /* z-index: 4; */
     
 }
 .card_wrapper{
@@ -61,11 +62,11 @@
 }
 .card_outer{
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
     
 }
 .card_location{
-    border:2px solid black;
+    /* border:2px solid black; */
     display: flex;
     align-items: center;
     gap: 5px;
